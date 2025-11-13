@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+main {
+    flex: 3; /* This allows the main content area to grow and push the footer to the bottom */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Contact View Section */
+.contact-view {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-view h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Table Styles */
+.contact-table {
+    min-height:60vh;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.contact-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contact-table th, .contact-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.contact-table th {
+    background-color: #333;
+    color: white;
+}
+
+.contact-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.contact-table tr:hover {
+    background-color: #ddd;
+}
+
+.contact-table button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.contact-table button:hover {
+    background-color: #c82333;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #333;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Profile Section */
+.profile {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.profile-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.profile-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.profile-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.profile-menu a:hover {
+    background-color: #f4f4f4;
+    color: #444;
+}
+
+.profile-btn a:hover {
+    color: #444;
+}
+
+.profile-menu a:last-child {
+    border-bottom: none;
+}
+

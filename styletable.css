@@ -1,0 +1,56 @@
+
+Copy code
+.transactions-container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-content: center; /* Center items horizontally */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.go-to-download-button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.go-to-download-button:hover {
+    background-color: #0056b3;
+}
+
+.back-button {
+    margin-top: 20px; /* Space above the button */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Center the button */
+    display: flex; /* Make it a flex container */
+    justify-content: center; /* Center text inside the button */
+    align-items: center; /* Center items vertically */
+}
+
+h2{
+    align-self: center;
+    text-align: center;
+}

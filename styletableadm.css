@@ -1,0 +1,68 @@
+.delete-button {
+    background-color: #dc3545; /* Bootstrap's danger color */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.transactions-container {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa; /* Light gray for header */
+}
+
+img {
+    max-width: 50px; /* Set max width for image thumbnails */
+    height: auto;    /* Maintain aspect ratio */
+}
+
+.back-button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.download-button:hover, .back-button:hover {
+    background-color: #033b76; /* Darker blue on hover */
+}
+
+.download-button {
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.download-button {
+    text-decoration: none;
+    /* Add any other styles you want for the button */
+    color: #ffffff; /* Example: white text */
+    background-color: #103ebe; /* Example: green background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+}
